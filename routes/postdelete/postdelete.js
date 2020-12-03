@@ -9,7 +9,6 @@ var cookieParser = require('cookie-parser');
 // unique user id
 const { v4: uuidv4 } = require('uuid');
 
-
 // for file uploads
 var multer = require('multer');
 var uploadDestination = multer({dest: 'public/images'});
