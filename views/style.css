@@ -1,0 +1,25 @@
+body {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.column {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    border: dotted 1px black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+}

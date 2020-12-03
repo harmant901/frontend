@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title HarmansList | User Settings
+        style
+            include style.css
+    body
+
+    h1 Edit Your Profile
+
+    h3 Upload An Avatar
+    p Uploading an avatar can let other people know who they are doing business with
+    form(method="POST" action="/uploadavatar" enctype="multipart/form-data")
+        input(type="file" name="avatar" accept="image/x-png")
+        input(type="submit" value="Upload Avatar")

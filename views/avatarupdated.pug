@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title HarmansList | Avatar Updated!
+          style
+            include style.css
+    body
+    h1 Your avatar has successfully been updated.
+    p Click the back button to go back to the panel!
+
+    // variables
+
+    - var usernamer = username;
+    form(method="GET" action="/user/panel/" + usernamer)
+        input(type="submit" value="Back")

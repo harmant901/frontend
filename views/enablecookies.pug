@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Enable Cookies Procedure
+        style
+            include style.css
+    body
+
+    h1 Please ensure you have cookies enabled.
+    p1 Having cookies enabled will make your experience on this site even better!
+    - var usernamer = username
+    form(method="GET" action="/user/panel/" + usernamer)
+        input(type="submit" value="Continue")
