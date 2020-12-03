@@ -35,7 +35,7 @@ html(lang="en")
                 img(src=img height="200px" alt="Image")
                 p #{post.postMessage}
                 if username == post.Author
-                    form(method="POST" action="/post/delete/" + post.fileImageName)
+                    form(method="POST" action="/user/post/delete/" + post.fileImageName)
                         input(type="submit" value="Delete Post") 
                 if username !== post.Author
                     button(type="button") Contact Seller
