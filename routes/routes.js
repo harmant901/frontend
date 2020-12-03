@@ -303,6 +303,7 @@ router.post('/logout', (req, res) => {
     res.clearCookie('username');
     session_username = "";
     res.redirect('/');
+    // testing
 });
 
 
