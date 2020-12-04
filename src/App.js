@@ -21,7 +21,7 @@ function App() {
       <Link className="link" to="/register">Click me to Register</Link><br></br>
       <Link className="link" to="/login">Click me to Login</Link>
       
-      
+    
       </Router>
         
     </div>
