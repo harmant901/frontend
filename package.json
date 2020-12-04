@@ -24,7 +24,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://harmanapp2107.herokuapp.com/",
+  "proxy": "https://webserver-harmanapp2107.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",
