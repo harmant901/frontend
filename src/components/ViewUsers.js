@@ -7,7 +7,7 @@ class ViewUsers extends React.Component {
         this.state = {
             userData: [
                 {
-                    
+
                 }
             ]
             
@@ -42,13 +42,16 @@ class ViewUsers extends React.Component {
 
 
     render() {
+        const users = this.state.userData.map(d => ( d.online ? <li key={d.username}>{d.username}</li> : <p></p>));
         
         return (
             
             <div>
-                <h2>List of users</h2>
+                <h3>Users Currently Online</h3>
                 <ul>
-                    {this.state.userData.map(d => (<li key={d.username}>{d.username}</li>))}
+            
+                {users}
+                    
                 </ul>
                
             </div>
