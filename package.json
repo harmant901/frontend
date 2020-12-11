@@ -26,7 +26,11 @@
       "react-app/jest"
     ]
   },
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> development
   "browserslist": {
     "production": [
       ">0.2%",
