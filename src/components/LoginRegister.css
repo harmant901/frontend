@@ -1,0 +1,16 @@
+div {
+    text-align: center;
+}
+
+form {
+    background-color: #eee;
+    padding: 25px;
+    width: 20%;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    border: none;
+    font-family: arial;
+}

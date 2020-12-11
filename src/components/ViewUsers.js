@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './ViewUsers.css';
 class ViewUsers extends React.Component {
     constructor(props) {
         super(props);
@@ -50,7 +50,7 @@ class ViewUsers extends React.Component {
                 <h3>Users Currently Online</h3>
                 <ul>
             
-                {users}
+                <center>{users}</center>
                     
                 </ul>
                

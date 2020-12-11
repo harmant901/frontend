@@ -1,5 +1,27 @@
-.App {
+div.App {
   text-align: center;
+  height: 100%;
+}
+
+html,body {
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid .5px black;
+}
+
+h1 {
+  text-align: center;
+  background-color: #eee;
+  padding: 25px;
+  font-size: 25px;
+  font-weight: 200;
 }
 
 .App-logo {
