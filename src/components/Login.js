@@ -24,7 +24,7 @@ class Login extends React.Component {
         Axios.post('http://54.226.49.231:8000/user/login', this.state)
         .then(response => {
             console.log(response)
-            location.href = 'http://54.226.49.231:8000/setcookies';
+            window.href = 'http://54.226.49.231:8000/setcookies';
         })
         .catch(error => {
             console.log(error);
