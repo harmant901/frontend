@@ -18,9 +18,9 @@ function App() {
       <Router>
       
       <br></br>
-      <Link className="link" to="/register">Click me to Register</Link><br></br>
+      <Link className="link" to="/register">Register</Link><br></br>
       <br></br>
-      <Link className="link" to="/login">Click me to Login</Link><br></br>
+      <Link className="link" to="/login">Login</Link><br></br>
       
       <Switch>
         
