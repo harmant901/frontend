@@ -41,10 +41,10 @@ class Login extends React.Component {
             <div>
                 <center>
                 <h2>Login</h2>
-                <form method="POST" action="/user/login">
+                <form method="POST" action="http://54.226.49.231:8000/user/login">
                     <input type="text" onChange={this.handleChangeUsername} name="username" placeholder="username"></input><br/>
                     <input type="text" onChange={this.handleChangePassword} name="password" placeholder="password"></input><br/>
-                    <button value="Login" type="button" onClick={this.handleClick}>Login</button>
+                    <button value="Login" type="submit" onClick={this.handleClick}>Login</button>
                 </form>
                 </center>
             </div>
