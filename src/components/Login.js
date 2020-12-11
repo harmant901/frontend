@@ -21,10 +21,10 @@ class Login extends React.Component {
 
     handleClick = () => {
         console.log(this.state);
-        Axios.post('http://localhost:8000/user/login', this.state)
+        Axios.post('http://54.226.49.231:8000/user/login', this.state)
         .then(response => {
             console.log(response)
-            window.location = 'http://localhost:8000/setcookies';
+            window.location = 'http://54.226.49.231:8000/setcookies';
         })
         .catch(error => {
             console.log(error);
