@@ -37,7 +37,7 @@ class Register extends React.Component {
                 <form method="POST" action="http://54.226.49.231:8000/user/register">
                     <input type="text" onChange={this.handleChangeUsername} name="username" placeholder="username"></input><br/>
                     <input type="text" onChange={this.handleChangePassword} name="password" placeholder="password"></input><br/>
-                    <button value="Login" type="submit" onClick={this.handleClick}>Login</button>
+                    <button value="Login" type="submit" onClick={this.handleClick}>Register</button>
                 </form>
                </center>
             </div>

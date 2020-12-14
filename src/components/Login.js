@@ -37,6 +37,7 @@ class Login extends React.Component {
     }
 
     render() {
+        var yes = process.env.API_BASE_URL
         return (
             <div>
                 <center>
