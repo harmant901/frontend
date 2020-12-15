@@ -21,7 +21,7 @@ class ViewUsers extends React.Component {
     }
     
     fetchData() {
-        fetch('http://localhost:8000/users',
+        fetch('http://54.226.49.231:8000/users',
         {
             headers: {
                 'Content-Type': 'application/json',
