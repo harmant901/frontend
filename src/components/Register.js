@@ -32,14 +32,13 @@ class Register extends React.Component {
     render() {
         return (
             <div>
-               <center>
-                <h2>Register</h2>
+            
                 <form method="POST" action="http://54.226.49.231:8000/user/register">
-                    <input type="text" onChange={this.handleChangeUsername} name="username" placeholder="username"></input><br/>
-                    <input type="text" onChange={this.handleChangePassword} name="password" placeholder="password"></input><br/>
-                    <button value="Login" type="submit" onClick={this.handleClick}>Register</button>
+                    <input id="username-input" type="text" onChange={this.handleChangeUsername} name="username" placeholder="username"></input><br/>
+                    <input id="password-input" type="password" onChange={this.handleChangePassword} name="password" placeholder="password"></input><br/>
+                    <button id="submit-btn" value="Login" type="submit" onClick={this.handleClick}>Register</button>
                 </form>
-               </center>
+              
             </div>
         );
     }

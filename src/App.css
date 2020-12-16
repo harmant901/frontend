@@ -5,23 +5,84 @@ div.App {
 
 html,body {
   height: 100%;
+  background-color: #372B2B;
+}
+
+.link-wrapper {
+  width: 100%;
+  text-align: center;
+  width: 40%;
+  display: flex;
 }
 
 .link {
   text-decoration: none;
   font-size: 15px;
-  background-color: #eee;
+  background-color: #372B2B;
   padding: 10px;
-  border-radius: 5px;
-  border: solid .5px black;
+  font-weight: 200;
+  display: flex;
+  color: white;
+  width: 130px;
+  
 }
 
-h1 {
+#link1 {
+  position: relative;
+  top: 25px;
+  text-align: center;
+  padding-left: 40px;
+  margin-left: 24px;
+  font-size: 15px;
+}
+
+#link2 {
+  position: relative;
+  top: 25px;
+  padding-left: 45px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.online-users-header, .announcements-header {
   text-align: center;
   background-color: #eee;
   padding: 25px;
   font-size: 25px;
   font-weight: 200;
+  font-size: 15px;
+}
+
+.online-users-wrapper, .announcements-wrapper {
+  margin: 0;
+  width: 130px;
+  padding: 0;
+  height: 30px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.online-users-header, .announcements-header {
+  position: relative;
+  top: 23px;
+  text-align: center;
+  height: 34px;
+  background-color: #372B2B;
+  color: white;
+  
+}
+
+.online-users-header > span {
+  position: relative;
+  top: -10px;
+}
+
+.announcements-header > span {
+  position: relative;
+  top: -10px;
+  margin-left: -10px;
+  text-align: center;
+
 }
 
 .App-logo {
@@ -59,4 +120,35 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* CSS By Me */
+.box{
+  background: #110D0D;
+}
+.wrapper{
+  position: relative;
+  top: 150px;
+  display: grid;
+  grid-template-columns: .5fr .5fr 1fr;
+  grid-gap: 20px;
+  margin: 12px 60px;
+  height: 382px;
+}
+
+.header-wrapper {
+  position: relative;
+  top: 80px;
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  grid-gap: 20px;
+  margin: 12px 60px;
+  height: 100px;
+}
+
+/* Link Hover Animation */
+.link:hover {
+  color: grey;
+  -webkit-transition: color ease-in-out 200ms;
+  text-decoration: none;
 }

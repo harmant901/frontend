@@ -3,14 +3,36 @@ div {
 }
 
 form {
-    background-color: #eee;
+    position: relative;
+    top: 50px;
     padding: 25px;
     width: 20%;
     text-align: center;
     margin: 0;
 }
 
-button {
+#username-input, #password-input {
+    border: none;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-bottom: #707070 .5px solid;
+    width: 280px;
+}
+
+#username-input[type=text], #password-input[type=text] {
+    color: white;
+}
+
+#submit-btn {
+    position: relative;
+    top: 30px;
     border: none;
     font-family: arial;
+    width: 134px;
+    border-radius: 81px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #372B2B;
 }

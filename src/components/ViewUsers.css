@@ -1,5 +1,17 @@
 ul,li {
+    position: relative;
+    top: 20px;
     list-style-type: none;
     text-align: center;
     padding: 0;
+}
+
+.list-item {
+    color: white;
+    border: solid grey 1px;
+    padding: 5px;
+    font-weight: 100;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-top: 10px;
 }

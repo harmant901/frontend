@@ -1,0 +1,30 @@
+.post-wrapper {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    
+    
+}
+.a-title {
+    color: white;
+    font-size: 28px;
+    width: 300px;
+    font-weight: 100;
+}
+
+.a-date {
+    color: white;
+    opacity: .36;
+    font-weight: 100;
+    font-size: 15px;
+    padding-right: 55px;
+    width: 200%;
+}
+
+.a-desc {
+    color: white;
+    font-weight: 100;
+    width: 472px;
+    text-align: left;
+    padding-left: 45px;
+}

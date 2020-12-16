@@ -42,12 +42,11 @@ class ViewUsers extends React.Component {
 
 
     render() {
-        const users = this.state.userData.map(d => ( d.online ? <li key={d.username}>{d.username}</li> : <p></p>));
+        const users = this.state.userData.map(d => ( d.online ? <li class="list-item" key={d.username}>{d.username}</li> : <p></p>));
         
         return (
             
             <div>
-                <h3>Users Currently Online</h3>
                 <ul>
             
                 <center>{users}</center>

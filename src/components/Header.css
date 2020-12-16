@@ -1,0 +1,17 @@
+.header-wrapper {
+    width: 100%;
+    color: white;
+}
+.header-title {
+    color: white;
+    font-size: 20px;
+    width: 69%;
+    background-color: #110D0D;
+}
+
+.inside-text {
+    position: relative;
+    top: 30px;
+    font-weight: 100;
+}
+

@@ -1,9 +1,15 @@
 footer {
-    width: 100%;
+    position: relative;
+    top: 200px;
+    color: white;
+    width: 93.5%;
     height: 100px;
-    background-color: #eee;
+    background-color: #110D0D;
+    text-align: center;
+    margin: auto;
 }
 
-p {
-    margin-top: 430px;
+.footer-text {
+    position: relative;
+    top: 35px;
 }
