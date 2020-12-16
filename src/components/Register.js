@@ -20,7 +20,7 @@ class Register extends React.Component {
 
     handleClick = () => {
         console.log(this.state);
-        Axios.post(REACT_APP_API_BASE_URL+'user/register', this.state)
+        Axios.post(process.env.REACT_APP_API_BASE_URL+'user/register', this.state)
         .then(response => {
             console.log(response)
             //window.href = 'http://54.226.49.231:8000/setcookies';
